@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 选择排序
  */
-public class Choose {
+public class ChooseSort {
 
     public static void main(String[] args) {
 

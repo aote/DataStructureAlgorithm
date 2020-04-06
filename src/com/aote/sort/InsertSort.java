@@ -6,7 +6,7 @@ import java.util.Arrays;
  * 插入排序
  * 假定第一个数是有序合集，后面都是无序合集，第一个数和后面每一位比较，并找到自己的位置
  */
-public class Insert {
+public class InsertSort {
 
     public static void main(String[] args) {
         int[] arr = {18,12,7,15,6};

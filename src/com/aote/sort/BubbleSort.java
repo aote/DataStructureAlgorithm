@@ -11,7 +11,7 @@ import java.util.Arrays;
  * 的元素逐渐从前移向后部，就象水底下的气泡一样逐渐
  * 向上冒。
  */
-public class Bubble {
+public class BubbleSort {
 
     public static void main(String[] args) {
 
