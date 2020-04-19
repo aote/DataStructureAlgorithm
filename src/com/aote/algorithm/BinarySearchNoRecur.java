@@ -9,7 +9,7 @@ public class BinarySearchNoRecur {
 
     public static void main(String[] args) {
         int[] arr = {1,6,9,16,18,22,36,78,99};
-        int index = binarySearch(arr,9);
+        int index = binarySearch(arr,2);
         System.out.println(index);
     }
 
@@ -31,13 +31,11 @@ public class BinarySearchNoRecur {
             } else if(arr[mid] > target){
                 // 向左边查找
                 right = mid - 1;
-            } else if(arr[mid] < target){
+            } else {
                 // 向右边查找
-                left = mid;
+                left = mid+1;
             }
         }
-
-
         return -1;
     }
 

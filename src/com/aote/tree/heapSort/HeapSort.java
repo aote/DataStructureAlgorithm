@@ -43,12 +43,12 @@ public class HeapSort {
     }
 
     /**
-     * 将一个数组(二叉树)调整成一个打顶堆
-     * 功能：完成以i为根节点的树调整成打顶堆
+     * 将一个数组(二叉树)调整成一个大顶堆
+     * 功能：完成以i为根节点的树调整成大顶堆
      * 举例：{4,6,8,5,9}-> i=1 ->{4,9,8,5,6}
      * 如果再次调用adjustHeap，传入的就是i=0，{4,9,8,5,6}->{9,6,8,5,4}
      * @param arr 待调整的数组
-     * @param i 表示飞叶子节点在数组中的索引
+     * @param i 表示非叶子节点在数组中的索引
      * @param Length 表示对多少个元素进行调整，length是在逐渐减少
      */
     public static void  adjustHeap(int[] arr,int i,int Length){
